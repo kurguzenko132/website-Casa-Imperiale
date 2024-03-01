@@ -1,0 +1,26 @@
+@mixin line {
+    &::before {
+        content: '';
+        position: absolute;
+        width: 34px;
+        height: 200px;
+        left: 230px;
+        background:  #006B63;
+    }
+    
+}
+@mixin triangle {
+    &::before {
+        content:'';
+        position: absolute;
+        width: 0; 
+        height: 0;
+        top: 199px;
+        transform: rotate(90deg);
+        border-right: 17px solid transparent;
+        border-top: 17px solid  #006B63;
+        border-left: 17px solid #006B63;
+        border-bottom: 17px solid  #006B63;
+    }
+    
+    }

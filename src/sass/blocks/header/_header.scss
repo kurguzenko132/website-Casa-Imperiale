@@ -17,7 +17,7 @@
         font-weight: 700;
         font-size: 32px;
         color: #636467;
-        font-family: Cormorant SC;
+        font-family: var('--third-family');
     }
     &__link {
         width: 429px;
@@ -52,7 +52,7 @@
             }
         }
         .telegram {
-            border: 0.70px solid #006b63;
+            border: 0.70px solid #039be5;
             border-radius: 30px; 
             display: flex;
             align-items: center;
@@ -61,7 +61,7 @@
             height: 40px;
             svg {
                 height: 18px;
-                fill: #006b63;
+                fill: #039be5;
             }
         }
         .tel {

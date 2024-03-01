@@ -1,0 +1,40 @@
+.promo {
+    // max-height: 100vh;
+    &__mini {
+        margin-top: 45px;
+        display: flex;
+        justify-content: space-between;
+        h1 {
+            width: 500px;
+            font-weight: 300;
+            font-size: 56px;
+            text-transform: uppercase;
+            color: #000;
+            line-height: 107%;
+            margin-top: 110px;
+        }
+        
+        .specialistic {
+            font-family: var(--font-family);
+            width: 410px;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 150%;
+            color: #001e1c;
+        }
+    }
+    &__picture {
+        height: 600px;
+        width: 100%;
+        background: url('../img/promo/bg.jpg')  center (center / cover);
+    }
+    &__title {
+        width: 500px;
+        font-weight: 300;
+        font-size: 56px;
+        line-height: 107%;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    
+}
