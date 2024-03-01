@@ -1,0 +1,88 @@
+.header {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 43px;
+    &__logo {
+        width: 285px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img {
+            height: 100%;
+        }
+    }
+    &__name {
+        font-weight: 700;
+        font-size: 32px;
+        color: #636467;
+        font-family: Cormorant SC;
+    }
+    &__link {
+        width: 429px;
+        display: flex;
+        justify-content: space-between;
+        a {
+            font-weight: 400;
+            font-size: 16px;
+            color: #006b63;
+        }
+    }
+    &__settings {
+        width: 95px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__contacts {
+        width: 280px;
+        display: flex;
+        justify-content: space-between;
+        .whatsApp {
+            border: 0.70px solid #4caf50;
+            border-radius: 30px; 
+            display: flex;
+            align-items: center;
+            justify-content: center ;
+            width: 40px;
+            height: 40px;
+            svg {   
+                height: 18px;
+                fill: #4caf50;
+            }
+        }
+        .telegram {
+            border: 0.70px solid #006b63;
+            border-radius: 30px; 
+            display: flex;
+            align-items: center;
+            justify-content: center ;
+            width: 40px;
+            height: 40px;
+            svg {
+                height: 18px;
+                fill: #006b63;
+            }
+        }
+        .tel {
+            max-width: 170px;
+            height: 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;  
+            border: 0.70px solid #006b63;
+            border-radius: 30px; 
+            padding: 12px;
+            svg {
+                height: 18px;
+                fill: #006b63;
+            }
+            span {
+                font-weight: 400;
+                font-size: 14px;
+                text-transform: uppercase;
+                color: #006b63;
+            }
+        }        
+    }
+}
