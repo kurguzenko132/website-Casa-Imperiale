@@ -1,0 +1,36 @@
+.politics {
+    margin-top: 76px;
+    height: 286px;
+    &__wrapper {
+        height: 250px;
+        background-image: url('../../../img/politics/bg.png');
+    }
+    &__logo {
+        img {
+            margin-top: -30px;
+            margin-left: 766px;
+        }
+    }
+    &__title {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 118%;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    &__text {
+        display: flex;
+        justify-content: space-between;
+        margin: 70px 60px 0 60px;
+    }
+    &__descr {
+        width: 300px;
+        font-family: var(--font3);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 136%;
+        text-align: center;
+        color: #fff;
+    }
+}
