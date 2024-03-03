@@ -1,0 +1,190 @@
+.apartament {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    &__wrapper {
+        border-radius: 20px;
+        padding: 20px 24px 20px 20px;
+        width: 600px;
+        height: 267px;
+        background: rgba(217, 217, 217, 0.2);
+    }
+    &__title {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 16px;
+        color: var(--dark);
+    }
+    &__wrappers {
+        margin-top: 20px;
+        height: 130px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    &__descr {
+        display: flex;
+        justify-content: space-between;
+        .text {
+        position: relative;
+        margin-left: 13px;
+    }
+    }
+    .lines {
+        margin-left: 13px;
+        width: 540px;
+        height: 1px;
+        background-color: #001e1c1e;
+    }
+    &__text {
+        font-family: var(--font-family);
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 131%;
+        color: var(--dark);
+        span {
+            font-weight: 500;
+        }
+        &:before {
+            content: '';
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            border-radius: 100%;
+            z-index: 10;  
+            margin-top: 9px;
+            left: -13px;
+            background: #000;
+        }
+    }
+    &__price {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 131%;
+        color: var(--dark);
+    }
+    &__more {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: 435px;
+        .text {
+            margin-right: 5px;
+            font-family: var(--second-family);
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 231%;
+            text-decoration: underline;
+            text-decoration-skip-ink: none;
+            color: #006b63;
+        }
+    }
+    &__plans {
+        position: relative;
+        border-radius: 20px;
+        padding: 20px 0px 20px 20px;
+        width: 398px;
+        height: 267px;
+        background: rgba(217, 217, 217, 0.2);
+        .apartament__title {
+            margin-bottom: 20px;
+        }
+    }
+    &__texts {
+        margin-left: 10px;
+        margin-bottom: 15px;
+        &:before {
+            content: '';
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            border-radius: 100%;
+            z-index: 10;  
+            margin-top: 9px;
+            left: 18px;
+            background: #000;
+        }
+    }
+    &__item {
+        margin-top: 40px;
+        display: flex;
+        border-radius: 20px;
+        padding: 10px 20px;
+        width: 324px;
+        height: 41px;
+        background: rgba(217, 217, 217, 0.2);
+    }
+    &__word {
+        margin-left: 10px;
+        font-family: var(--font-family);
+        font-weight: 300;
+        font-size: 16px;
+        color: var(--dark);
+    }
+    &__contacts {
+        width: 192px;
+    }
+    &__application {
+        margin-bottom: 10px;
+        display: flex;
+        align-items:center; 
+        justify-content: center;
+        border: 1px solid #006b63;
+        border-radius: 10px;
+        padding: 16px 15px;
+        width: 192px;
+        height: 53px;
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #006b63;
+        text-align: center;
+        &-2 {
+            padding: 10px 10px;
+
+        }
+    }
+    &__message {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 60px;
+        .circle {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 0.70px solid #4caf50;
+            border-radius: 30px;
+            padding: 11px;
+            width: 40px;
+            height: 40px;
+        }
+        .tg {
+            margin-left: 15px;
+            margin-right: 15px;
+            border: 0.70px solid #039be5;
+        }
+        .tes {
+            margin-top: 10px;
+            border: 0.70px solid #006b63;
+            border-radius: 30px;
+            padding: 12px;
+            width: 172px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            a {
+                
+                font-family: var(--second-family);
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 264%;
+                text-transform: uppercase;
+                color: #006b63;
+            }
+        }
+    }
+
+}

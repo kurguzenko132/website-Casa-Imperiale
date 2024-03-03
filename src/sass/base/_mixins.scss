@@ -24,3 +24,17 @@
     }
     
     }
+
+@mixin dote {
+    &:before {
+        content: '';
+        position: absolute;
+        width: 5px;
+        height: 5px;
+        border-radius: 100%;
+        z-index: -1;
+        left: 0;
+        top:-30%;
+        background: #000;
+    }
+}
