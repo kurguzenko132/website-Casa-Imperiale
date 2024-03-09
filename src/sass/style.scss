@@ -17,6 +17,10 @@
 .container {
     margin: 0 auto;
     width: 1290px;
+    &-big {
+        position: relative;
+        width: 1440px
+    }
 }
 
 @import 'blocks/header/header';
@@ -33,3 +37,4 @@
 @import 'blocks/contacts/why/why';
 @import 'blocks/about/about';
 @import 'blocks/projects/project';
+@import 'blocks/error/error.scss';

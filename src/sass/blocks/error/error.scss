@@ -1,0 +1,46 @@
+.error {
+    // position: relative;
+    height: 760px;
+
+    .img {
+        position: absolute;
+
+        &-1 {
+            top: 324px;
+            left: 1%;
+        }
+        &-2 {
+            top: 65px;
+            left: 15%;
+        }
+        &-3 {
+            top: 65px;
+            left: 84%;
+        }
+    }
+    &__block {
+        position: absolute;
+        top: 140px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    &__title {
+        font-family: var(--second-family);
+        font-weight: 300;
+        font-size: 42px;
+        text-transform: uppercase;
+        color: #000;
+    }
+    &__subtitle {
+        font-family: var(--font-family);
+        font-weight: 300;
+        font-size: 16px;
+        color: var(--dark);
+    }
+    &__wrapper {
+        position: absolute;
+        top: 590px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
